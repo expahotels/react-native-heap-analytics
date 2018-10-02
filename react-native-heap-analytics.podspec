@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
   s.homepage = package[:homepage]
   s.source = { git: package[:repository] }
   s.source_files = "ios/*"
-  s.platform = :ios, "8.0"
+  s.platform = :ios, "9.0"
 
   s.dependency "Heap", "4.0.0"
+  s.dependency 'React'
 end
